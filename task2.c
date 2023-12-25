@@ -23,9 +23,7 @@ enter array element :- 2
 */
 
 #include<stdio.h>
-
-void main(){
-	
+void dhruv(){
 	int a[5][5];
 	int *ptr,i,j,n;
 	
@@ -50,5 +48,9 @@ void main(){
 		}
 		printf("\n");
 	}
+}
+void main(){
+	dhruv();
+	
 	
 }
